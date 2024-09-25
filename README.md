@@ -1,8 +1,35 @@
-# React + Vite
+# Netflix GPT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application that combines the functionalities of Netflix with the power of GPT to provide personalized movie recommendations.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Search for movies and get recommendations based on user input.
+- User-friendly interface styled with Tailwind CSS.
+- Responsive design for optimal viewing on various devices.
+- Integration with TMDB API for movie data.
+- Utilizes Cohere AI for generating movie suggestions.
+
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- Redux
+- TMDB API
+- Cohere AI
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/netflix-gpt.git
